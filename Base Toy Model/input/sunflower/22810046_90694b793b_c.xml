@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunflower</folder>
+	<filename>22810046_90694b793b_c.jpg</filename>
+	<path>/home/erik/Documents/AI_project/sunflower/22810046_90694b793b_c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sunflower</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>41</ymin>
+			<xmax>243</xmax>
+			<ymax>222</ymax>
+		</bndbox>
+	</object>
+</annotation>

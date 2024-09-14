@@ -1,0 +1,26 @@
+<annotation>
+	<folder>sunflower2</folder>
+	<filename>9617413310_3b05811da7_c.jpg</filename>
+	<path>C:\Users\Ergiman\Documents\sunflowerDataset\train\sunflower\sunflower2\9617413310_3b05811da7_c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sunflower</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>1</ymin>
+			<xmax>252</xmax>
+			<ymax>253</ymax>
+		</bndbox>
+	</object>
+</annotation>

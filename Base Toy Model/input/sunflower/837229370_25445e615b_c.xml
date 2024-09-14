@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Sunflower1</folder>
+	<filename>837229370_25445e615b_c.jpg</filename>
+	<path>C:\Users\albin\Downloads\archive\flowers\sunflower\Sunflower1\837229370_25445e615b_c.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sunflower</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>63</ymin>
+			<xmax>228</xmax>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+</annotation>
