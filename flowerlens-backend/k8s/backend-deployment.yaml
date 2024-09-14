@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flowerlens-backend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flowerlens-backend
+  template:
+    metadata:
+      labels:
+        app: flowerlens-backend
+    spec:
+      containers:
+      - name: flowerlens-backend-container
+        image: gcr.io/flowerlens/flowerlens-backend:deployment
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8000
+        envFrom:
+        - configMapRef:
+            name: db-config
+        volumeMounts:
+        - name: static-volume
+          mountPath: /app/FlowerLensBackend/staticfiles
+        command: ["/bin/sh", "-c"]
+        args: ["python FlowerLensBackend/manage.py collectstatic --noinput && python FlowerLensBackend/manage.py runserver 0.0.0.0:8000"]
+      - name: cloudsql-proxy
+        image: gcr.io/cloudsql-docker/gce-proxy:1.17
+        command: ["/cloud_sql_proxy",
+                  "-instances=flowerlens:europe-west1:flowerlens=tcp:5432",
+                  "-credential_file=/secrets/cloudsql/credentials.json"]
+        volumeMounts:
+        - name: cloudsql-instance-credentials
+          mountPath: /secrets/cloudsql
+          readOnly: true
+
+      - name: nginx-container
+        image: gcr.io/flowerlens/flowerlens-nginx:latest
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: static-volume
+          mountPath: /usr/share/nginx/html/static/
+
+      volumes:
+      - name: cloudsql-instance-credentials
+        secret:
+          secretName: cloudsql-instance-credentials
+
+      - name: static-volume
+        emptyDir: {}

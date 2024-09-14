@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Sunflower",
+      "Scientific Name": "Helianthus annuus",
+      "Family": "Asteraceae",
+      "Genus": "Helianthus"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Bright yellow with brown centers",
+      "Petal Shape": "Large, flat petals surrounding a central disc",
+      "Bloom Size": "15-30 cm in diameter",
+      "Height": "1.5-3 meters"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "18-30°C",
+      "Sunlight": "Full sun",
+      "Water": "Moderate, drought-tolerant once established",
+      "Soil": "Well-drained, nutrient-rich"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Not necessary, but remove spent flowers to tidy",
+      "Pests": "Aphids, beetles",
+      "Diseases": "Mildew, rust, fungal infections",
+      "Propagation": "Seed"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Summer",
+      "Frequency": "Annual",
+      "Duration": "8-12 weeks",
+      "Fertilizer": "Balanced fertilizer during growth period"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees, birds (especially for seeds)",
+      "Habitat": "Fields, gardens, open areas",
+      "Native Regions": "North America",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

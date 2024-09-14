@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Common Daisy",
+      "Scientific Name": "Bellis perennis",
+      "Family": "Asteraceae",
+      "Genus": "Bellis"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "White petals with a yellow center",
+      "Petal Shape": "Oval petals arranged in a circular pattern",
+      "Bloom Size": "2-3 cm in diameter",
+      "Height": "10-20 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Tolerates a wide range, prefers 4-24°C",
+      "Sunlight": "Full sun to partial shade",
+      "Water": "Moderate, prefers well-drained soil",
+      "Soil": "Rich, well-drained"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead to encourage more flowering",
+      "Pests": "Generally pest-resistant",
+      "Diseases": "Leaf spot, powdery mildew",
+      "Propagation": "Seed, division in spring or autumn"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Spring to early autumn",
+      "Frequency": "Perennial",
+      "Duration": "Continuous blooming with proper care",
+      "Fertilizer": "Use balanced fertilizer in spring"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees, butterflies, and other insects",
+      "Habitat": "Meadows, lawns, gardens",
+      "Native Regions": "Europe",
+      "Invasiveness": "Can be invasive in some areas"
+    }
+  }
+]

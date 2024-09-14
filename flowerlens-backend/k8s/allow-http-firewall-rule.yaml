@@ -1,0 +1,18 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedFields
+metadata:
+  creationTimestamp: null
+spec:
+  fingerprint: {}
+---
+apiVersion: networking.gke.io/v1
+kind: FirewallRule
+metadata:
+  name: allow-http
+spec:
+  allowed:
+  - IPProtocol: TCP
+    ports:
+    - '80'
+  targetTags:
+  - ALLOW-HTTP

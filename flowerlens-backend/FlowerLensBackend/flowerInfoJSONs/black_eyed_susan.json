@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Black-eyed Susan",
+      "Scientific Name": "Rudbeckia hirta",
+      "Family": "Asteraceae",
+      "Genus": "Rudbeckia"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Yellow petals with a dark brown center",
+      "Petal Shape": "Oval petals with a pointed tip",
+      "Bloom Size": "7-10 cm in diameter",
+      "Height": "30-100 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Prefers 18-29°C",
+      "Sunlight": "Full sun",
+      "Water": "Moderate, drought-tolerant once established",
+      "Soil": "Well-drained, adaptable to various types"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead to encourage more blooms",
+      "Pests": "Aphids, slugs",
+      "Diseases": "Powdery mildew, leaf spot",
+      "Propagation": "Seed, division in spring"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Early summer to fall",
+      "Frequency": "Annual, biennial, or short-lived perennial depending on conditions",
+      "Duration": "2-3 months",
+      "Fertilizer": "Use balanced 10-10-10 fertilizer occasionally"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts butterflies, bees, and other pollinators",
+      "Habitat": "Prairies, fields, roadsides",
+      "Native Regions": "North America",
+      "Invasiveness": "Not typically invasive but can self-seed prolifically"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Bellflower",
+      "Scientific Name": "Campanula spp.",
+      "Family": "Campanulaceae",
+      "Genus": "Campanula"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Blue, purple, pink, or white",
+      "Petal Shape": "Bell-shaped",
+      "Bloom Size": "2-5 cm",
+      "Height": "15-60 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Tolerates a wide range, prefers 13-18°C",
+      "Sunlight": "Full sun to partial shade",
+      "Water": "Medium moisture, well-drained soil",
+      "Soil": "Rich, well-drained, slightly acidic to neutral"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead to prolong blooming",
+      "Pests": "Slugs, snails",
+      "Diseases": "Powdery mildew, root rot",
+      "Propagation": "Seeds, division in spring or autumn"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Late spring to early fall",
+      "Frequency": "Perennial, blooms annually",
+      "Duration": "4-6 weeks",
+      "Fertilizer": "Balanced 10-10-10 fertilizer, annually in spring"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees and butterflies",
+      "Habitat": "Meadows, woodlands, garden beds",
+      "Native Regions": "Northern Hemisphere",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

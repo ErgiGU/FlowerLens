@@ -1,0 +1,57 @@
+[
+    {
+      "title": "Identification",
+      "details": {
+        "Common Name": "Coreopsis",
+        "Scientific Name": "Coreopsis spp.",
+        "Family": "Asteraceae",
+        "Genus": "Coreopsis"
+      }
+    },
+    {
+      "title": "Appearance",
+      "details": {
+        "Color": "Yellow, pink, red, or bi-colored",
+        "Petal Shape": "Typically daisy-like with a distinct central disc",
+        "Bloom Size": "2-5 cm in diameter",
+        "Height": "30-90 cm"
+      }
+    },
+    {
+      "title": "Growing Conditions",
+      "details": {
+        "Temperature": "Prefers warm climates, frost-sensitive",
+        "Sunlight": "Full sun",
+        "Water": "Drought-tolerant, requires moderate watering",
+        "Soil": "Well-drained, can tolerate poor soil"
+      }
+    },
+    {
+      "title": "Care Instructions",
+      "details": {
+        "Pruning": "Deadhead to encourage more blooms",
+        "Pests": "Susceptible to snails and slugs",
+        "Diseases": "Occasionally affected by powdery mildew and fungal spots",
+        "Propagation": "Seed, division, or cuttings"
+      }
+    },
+    {
+      "title": "Flowering",
+      "details": {
+        "Blooming Season": "Late spring to early fall",
+        "Frequency": "Perennial in warmer climates, annual in colder regions",
+        "Duration": "Continuous blooming with proper care",
+        "Fertilizer": "Light application of balanced fertilizer in spring"
+      }
+    },
+    {
+      "title": "Ecological Impact",
+      "details": {
+        "Attractiveness To Pollinators": "Attracts bees, butterflies, and other beneficial insects",
+        "Habitat": "Meadows, prairies, gardens",
+        "Native Regions": "North America",
+        "Invasiveness": "Non-invasive"
+      }
+    }
+  ]
+  

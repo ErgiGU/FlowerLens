@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Daffodil",
+      "Scientific Name": "Narcissus spp.",
+      "Family": "Amaryllidaceae",
+      "Genus": "Narcissus"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Yellow, white, orange, pink",
+      "Petal Shape": "Trumpet-shaped with a central corona",
+      "Bloom Size": "Typically 6-10 cm in diameter",
+      "Height": "30-50 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Cooler climates, winter hardy",
+      "Sunlight": "Full sun to partial shade",
+      "Water": "Moderate, well-drained",
+      "Soil": "Well-drained, slightly acidic to neutral"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead after blooming, leave foliage until it yellows",
+      "Pests": "Bulb flies, aphids",
+      "Diseases": "Bulb rot, basal rot, narcissus smoulder",
+      "Propagation": "Bulb division after foliage dies back"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Early to late spring",
+      "Frequency": "Perennial",
+      "Duration": "4-6 weeks",
+      "Fertilizer": "Low-nitrogen fertilizer after blooming"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees",
+      "Habitat": "Gardens, woodlands, meadows",
+      "Native Regions": "Europe, North Africa",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

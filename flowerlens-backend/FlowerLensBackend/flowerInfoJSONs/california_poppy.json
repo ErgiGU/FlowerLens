@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "California Poppy",
+      "Scientific Name": "Eschscholzia californica",
+      "Family": "Papaveraceae",
+      "Genus": "Eschscholzia"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Orange, yellow, red, pink, white",
+      "Petal Shape": "Cup-shaped",
+      "Bloom Size": "5-8 cm in diameter",
+      "Height": "30-40 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Thrives in 10-24°C",
+      "Sunlight": "Full sun",
+      "Water": "Drought-tolerant, requires minimal watering",
+      "Soil": "Well-drained, poor to fertile"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Not necessary, but deadheading can prolong blooming",
+      "Pests": "Generally pest-free",
+      "Diseases": "Rarely affected by diseases",
+      "Propagation": "Seed, self-sows readily"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Late winter to spring",
+      "Frequency": "Perennial in warmer climates, annual in colder regions",
+      "Duration": "2-3 months",
+      "Fertilizer": "Generally not needed, can use low-nitrogen fertilizer if soil is poor"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees and butterflies",
+      "Habitat": "Native to grasslands and open areas",
+      "Native Regions": "Western United States",
+      "Invasiveness": "Non-invasive, but can spread quickly in suitable conditions"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Rose",
+      "Scientific Name": "Rosa spp.",
+      "Family": "Rosaceae",
+      "Genus": "Rosa"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Varies (red, white, pink, yellow, orange)",
+      "Petal Shape": "Layered, overlapping petals",
+      "Bloom Size": "Varies, typically 5-10 cm in diameter",
+      "Height": "30 cm to 5 meters (depending on type)"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "15-25°C",
+      "Sunlight": "Full sun",
+      "Water": "Regular, deep watering",
+      "Soil": "Well-drained, fertile, loamy"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Annual pruning in late winter or early spring",
+      "Pests": "Aphids, spider mites, rose beetles",
+      "Diseases": "Black spot, powdery mildew, rust",
+      "Propagation": "Cuttings, grafting, budding"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Late spring to fall",
+      "Frequency": "Perennial",
+      "Duration": "5-7 weeks",
+      "Fertilizer": "Balanced 10-10-10 fertilizer every 4-6 weeks during growing season"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees, butterflies",
+      "Habitat": "Gardens, hedges, pots",
+      "Native Regions": "Varies by species, widespread",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

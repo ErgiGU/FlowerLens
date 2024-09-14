@@ -1,0 +1,47 @@
+image: python:3.11
+
+stages:
+  - lint
+  - build
+  - docker-build
+
+lint:
+  stage: lint
+  script:
+    - python -m venv ci-env
+    - source ci-env/bin/activate
+    - pip install --upgrade pip
+    - pip install -r requirements.txt
+    - pip install pylint
+    - pylint FlowerLensBackend/FlowerLensBackendComponent/ || true
+
+build:
+  stage: build
+  variables:
+    CI: "true"
+  before_script:
+    - pip install --user virtualenv
+    - export PATH="$HOME/.local/bin:$PATH"
+    - python -m virtualenv ci-env
+    - source ci-env/bin/activate
+    - pip install -r requirements.txt
+
+  script:
+    - cd FlowerLensBackend/
+    - python manage.py test
+
+
+docker-build:
+  stage: docker-build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker info
+    - echo $CI_REGISTRY_PASSWORD | docker login -u $CI_REGISTRY_USER --password-stdin $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+
+  only:
+    - main
+

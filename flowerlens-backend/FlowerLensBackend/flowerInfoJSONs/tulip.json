@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Tulip",
+      "Scientific Name": "Tulipa spp.",
+      "Family": "Liliaceae",
+      "Genus": "Tulipa"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Varies (red, yellow, pink, white, purple, orange)",
+      "Petal Shape": "Cup-shaped, smooth or fringed edges",
+      "Bloom Size": "3-8 cm in diameter",
+      "Height": "10-70 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Cool spring climates, winter chilling required",
+      "Sunlight": "Full sun to partial shade",
+      "Water": "Moderate, well-drained",
+      "Soil": "Well-drained, fertile, sandy loam"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead after blooming, foliage dies back naturally",
+      "Pests": "Aphids, bulb mites",
+      "Diseases": "Fungal infections, tulip fire",
+      "Propagation": "Bulb division in summer or fall"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Early to late spring",
+      "Frequency": "Perennial, often grown as annuals",
+      "Duration": "2-3 weeks",
+      "Fertilizer": "Balanced fertilizer in autumn and early spring"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts bees, butterflies",
+      "Habitat": "Gardens, beds, borders, pots",
+      "Native Regions": "Central Asia, Turkey",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

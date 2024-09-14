@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Iris",
+      "Scientific Name": "Iris germanica",
+      "Family": "Iridaceae",
+      "Genus": "Iris"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Varies (blue, purple, white, yellow, orange)",
+      "Petal Shape": "Three upright petals and three drooping petals",
+      "Bloom Size": "8-15 cm",
+      "Height": "20-120 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "10-20°C",
+      "Sunlight": "Full sun to partial shade",
+      "Water": "Moderate, well-drained",
+      "Soil": "Well-drained, slightly acidic to neutral"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Remove faded flowers, cut back in autumn",
+      "Pests": "Iris borer, aphids",
+      "Diseases": "Root rot, bacterial soft rot",
+      "Propagation": "Division of rhizomes"
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Late spring to early summer",
+      "Frequency": "Blooms annually",
+      "Duration": "3-4 weeks",
+      "Fertilizer": "Low-nitrogen after blooming"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Bees, hummingbirds, butterflies",
+      "Habitat": "Gardens, meadows, wetlands",
+      "Native Regions": "Temperate Northern Hemisphere",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

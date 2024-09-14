@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Identification",
+    "details": {
+      "Common Name": "Astilbe",
+      "Scientific Name": "Astilbe chinensis",
+      "Family": "Saxifragaceae",
+      "Genus": "Astilbe"
+    }
+  },
+  {
+    "title": "Appearance",
+    "details": {
+      "Color": "Varies (pink, red, white, purple)",
+      "Petal Shape": "Feathery plumes",
+      "Bloom Size": "15-30 cm",
+      "Height": "15-90 cm"
+    }
+  },
+  {
+    "title": "Growing Conditions",
+    "details": {
+      "Temperature": "Thrives at 15-25°C",
+      "Sunlight": "Partial shade to full shade",
+      "Water": "Moist, well-drained soil; does not tolerate drought",
+      "Soil": "Rich, organic, slightly acidic to neutral pH"
+    }
+  },
+  {
+    "title": "Care Instructions",
+    "details": {
+      "Pruning": "Deadhead to encourage more blooms",
+      "Pests": "Rarely troubled by pests",
+      "Diseases": "Powdery mildew, root rot if overwatered",
+      "Propagation": "Division in spring or autumn, pot divisions under glass and plant out in late spring."
+    }
+  },
+  {
+    "title": "Flowering",
+    "details": {
+      "Blooming Season": "Late spring to early summer",
+      "Frequency": "Annual bloomer",
+      "Duration": "4-6 weeks",
+      "Fertilizer": "Use balanced 10-10-10 fertilizer annually in spring"
+    }
+  },
+  {
+    "title": "Ecological Impact",
+    "details": {
+      "Attractiveness To Pollinators": "Attracts butterflies and hummingbirds",
+      "Habitat": "Woodland gardens and shaded garden areas",
+      "Native Regions": "Eastern Asia, North America",
+      "Invasiveness": "Non-invasive"
+    }
+  }
+]

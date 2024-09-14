@@ -1,0 +1,4 @@
+[MASTER]
+load-plugins=pylint_django
+init-hook='import os; os.environ.setdefault("DJANGO_SETTINGS_MODULE", "FlowerLensBackend.settings")'
+
