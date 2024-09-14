@@ -1,0 +1,45 @@
+stages:
+  - build
+  - dockerize
+
+variables:
+  IMAGE_NAME: "registry.git.chalmers.se/courses/dit826/2023/group4/flowerlens-frontend"
+
+build_vue_project:
+  stage: build
+  tags:
+    - docker-build
+  image: node:16
+  script:
+    - cd Frontend/flowerlens
+    - npm install
+    - npm run build
+  only:
+    - branches
+
+dockerize_application:
+  stage: dockerize
+  tags:
+    - docker-build
+  image: docker:latest
+  services:
+    - docker:dind
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+  script:
+    - |
+      if [ -z "$CI_COMMIT_TAG" ]; then
+        IMAGE_TAG=$CI_COMMIT_REF_NAME  # Use branch name as the image tag
+      else
+        IMAGE_TAG=$CI_COMMIT_TAG
+      fi
+      docker build -t $IMAGE_NAME:$IMAGE_TAG .
+      docker push $IMAGE_NAME:$IMAGE_TAG
+      if [ -n "$CI_COMMIT_TAG" ]; then
+        docker tag $IMAGE_NAME:$IMAGE_TAG $IMAGE_NAME:latest
+        docker push $IMAGE_NAME:latest
+      fi
+  only:
+    - branches
+    - tags
+

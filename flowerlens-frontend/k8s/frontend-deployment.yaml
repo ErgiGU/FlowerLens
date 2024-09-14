@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flowerlens-frontend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flowerlens-frontend
+  template:
+    metadata:
+      labels:
+        app: flowerlens-frontend
+    spec:
+      containers:
+      - name: flowerlens-frontend-container
+        image: gcr.io/flowerlens/flowerlens-frontend:v1.0
+        ports:
+        - containerPort: 8080
